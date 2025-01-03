@@ -12,10 +12,19 @@ const aboutSections = [
     },
     {
         id: 2,
-        title: "Curieuse et en apprentissage continu",
-        description: "Je suis constamment à la recherche de nouvelles opportunités pour améliorer mes compétences, que ce soit en apprenant de nouvelles bibliothèques, frameworks ou meilleures pratiques.",
+        title: "Langages maîtrisés",
+        description: (
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+            </ul>
+        ),
         icon: <CalendarSync className="text-accent scale-150" />,
     },
+    
     {
         id: 3,
         title: "Passionné par l'UI/UX",
