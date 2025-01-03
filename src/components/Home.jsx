@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
   return(
-    <div className='flex flex-col-reverse md:flex-row justify-center items-center
+    <div id="Home" className='flex flex-col-reverse md:flex-row justify-center items-center
      md:my-32 my-10'>
 
       <div className='flex flex-col'>
@@ -35,7 +35,9 @@ const Home = () => {
         <img src= {img} alt="Portrait_Aurelielf" className='w-96 h-96 object-cover
         border-8 border-accent shadow-xl'
         style={{
-          borderRadius : "30% 70% 70% 30% / 67% 62% 38% 33%"
+          width:'auto',
+          height:'auto',
+          borderRadius : "30% 40% 70% 30% / 33% 52% 38% 33%"
         }}
         />
 
