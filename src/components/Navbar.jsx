@@ -3,14 +3,15 @@ import { Container } from "lucide-react";
 
 const Navbar = () => {
   return (
-    <div>
+    <div className="flex justify-center
+     md:justify-between items-center p-4">
       <a
         href="#"
         className="flex items-center font-bold text-3xl md:text-3xl"
       >
         <Container className="mr-2" />
         Aurélie
-        <span className="text-accent">DEV</span>
+        <span className="text-accent">LEFE</span>
       </a>
 
       <ul className="hidden md:flex space-x-4">
