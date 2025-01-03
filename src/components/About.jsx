@@ -12,7 +12,7 @@ const aboutSections = [
     },
     {
         id: 2,
-        title: "Langages maîtrisés",
+        title: "Languages maîtrisés",
         description: (
             <ul>
                 <li>HTML</li>
